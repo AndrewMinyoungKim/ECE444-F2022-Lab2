@@ -12,6 +12,7 @@ Second commit, Example 2-2, I added the Dynamic URL route
 ![](images/act2snap.PNG)
 
 ### Activity 3
+![](images/act3snapCommit.PNG)
 ![](images/act3snap.PNG)
 
 ### Activity 4
