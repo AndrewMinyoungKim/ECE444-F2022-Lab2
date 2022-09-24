@@ -4,9 +4,8 @@ from flask import Flask, render_template, session, redirect, url_for, flash
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, validators
-from wtforms.validators import DataRequired
-from wtforms.validators import Email
+from wtforms import StringField, SubmitField, validators, EmailField
+from wtforms.validators import DataRequired, Email
 
 # To run flask run, run this command:
 # $env:FLASK_APP="hello.py"
@@ -25,8 +24,8 @@ moment = Moment(app)
 
 class NameForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
-    email = StringField('What is your UofT Email address?',
-                        [validators.DataRequired(), validators.Email()])
+    email = EmailField('What is your UofT Email address?',
+                       [validators.DataRequired(), validators.Email()])
     # email = StringField('What is your UofT Email address?', validators=[Email()])
     submit = SubmitField('Submit')
 
