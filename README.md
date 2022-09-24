@@ -27,11 +27,10 @@ Output
 
 ### Activity 4
 
-Both commit messages for finishing Step 1&2
+Both commit messages for finishing Step 1&2 and screenshots
 ![](images/act4snapCommit1.PNG)
 ![](images/act4snapCommit2.PNG)
 
-4 Screenshots
 ![](images/act4snap1.PNG)
 ![](images/act4snap2.PNG)
 ![](images/act4snap3.PNG)
