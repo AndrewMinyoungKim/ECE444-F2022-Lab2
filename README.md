@@ -33,5 +33,4 @@ Both commit messages for finishing Step 1&2 and screenshots
 
 ![](images/act4snap1.PNG)
 ![](images/act4snap2.PNG)
-![](images/act4snap3.PNG)
 ![](images/act4snap4.PNG)
